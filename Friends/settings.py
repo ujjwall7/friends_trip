@@ -96,16 +96,17 @@ CORS_ORIGIN_ALLOW_ALL = True
 #    }
 #}
 
- DATABASES = {
-      'default': {
+ 
+DATABASES = {
+    'default': {
           'ENGINE': 'django.db.backends.postgresql_psycopg2',
           'NAME': 'Travel_Expense',
           'USER': 'Travel_Expense',
           'PASSWORD': 'Travel_Expense@Friends',
           'HOST': 'localhost',
           'PORT': '5432',
-      }
- }
+    }
+}
 
 
 # Password validation
