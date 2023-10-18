@@ -100,9 +100,9 @@ CORS_ORIGIN_ALLOW_ALL = True
 DATABASES = {
     'default': {
           'ENGINE': 'django.db.backends.postgresql_psycopg2',
-          'NAME': 'Travel_Expense',
-          'USER': 'Travel_Expense',
-          'PASSWORD': 'Travel_Expense@Friends',
+          'NAME': 'friendstrip',
+          'USER': 'ujjwal',
+          'PASSWORD': 'ujjwaL@12345u',
           'HOST': 'localhost',
           'PORT': '5432',
     }
