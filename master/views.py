@@ -11,7 +11,7 @@ from rest_framework.permissions import IsAuthenticated
 from .serializers import *
 
 
-#-------------Authentication-------------------
+#-------------Authentication--------------------
 class UserRegistrationAPIView(APIView):
     def post(self,request):
         username    = request.data.get('username')
